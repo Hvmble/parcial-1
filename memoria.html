@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de medidas de memoria</title>
+    <script type="text/css" src="css/bootstrap.min.css"></script>
+    </head>
+<body>
+    <h1> Calculadora de medidas de memoria</h1>
+    <form action='memoria.php' method="post" style="border: 5px">
+    <label>Ingrese medida a calcular:</label>
+    <input type="number" name="numero1" required="">
+    <br><br>
+        <label>Medida origen</label>
+        <select name=origen>
+            <option value="kb">Kilobyte</option>
+            <option value="mb">Megabyte</option>
+            <option value="gb">Gigabyte</option>
+            <option value="tb">Terabyte</option>
+            <option value="pb">Petabyte</option>
+            <option value="eb">Exabyte</option>
+            <option value="zb">Zettabyte</option>
+            <option value="yz">Yottabyte</option>
+        </select>
+        <br><br>
+        <label>Medida destino</label>
+        <select name=destino>
+            <option value="kb">Kilobyte</option>
+            <option value="mb">Megabyte</option>
+            <option value="gb">Gigabyte</option>
+            <option value="tb">Terabyte</option>
+            <option value="pb">Petabyte</option>
+            <option value="eb">Exabyte</option>
+            <option value="zb">Zettabyte</option>
+            <option value="yz">Yottabyte</option>
+        </select>
+        <br><br>
+        <input type="submit" name="button" value="calcular" class="btn btn-danger" title="calcular" >
+    </form>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    
+    </body>
+
+
+</html>
